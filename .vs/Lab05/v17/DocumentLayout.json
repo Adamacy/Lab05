@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ajaku\\Documents\\Collage\\Lab05\\",
+  "WorkspaceRootPath": "D:\\Collage\\Lab05\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFBFF40F-AC4F-4C73-B6C4-4D55CE6F62B2}|Lab05.vcxproj|C:\\Users\\ajaku\\Documents\\Collage\\Lab05\\CustomSprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DFBFF40F-AC4F-4C73-B6C4-4D55CE6F62B2}|Lab05.vcxproj|solutionrelative:CustomSprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DFBFF40F-AC4F-4C73-B6C4-4D55CE6F62B2}|Lab05.vcxproj|D:\\Collage\\Lab05\\Lab05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DFBFF40F-AC4F-4C73-B6C4-4D55CE6F62B2}|Lab05.vcxproj|solutionrelative:Lab05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFBFF40F-AC4F-4C73-B6C4-4D55CE6F62B2}|Lab05.vcxproj|C:\\Users\\ajaku\\Documents\\Collage\\Lab05\\Lab05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DFBFF40F-AC4F-4C73-B6C4-4D55CE6F62B2}|Lab05.vcxproj|solutionrelative:Lab05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DFBFF40F-AC4F-4C73-B6C4-4D55CE6F62B2}|Lab05.vcxproj|D:\\Collage\\Lab05\\CustomSprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DFBFF40F-AC4F-4C73-B6C4-4D55CE6F62B2}|Lab05.vcxproj|solutionrelative:CustomSprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CustomSprite.h",
-              "DocumentMoniker": "C:\\Users\\ajaku\\Documents\\Collage\\Lab05\\CustomSprite.h",
+              "DocumentMoniker": "D:\\Collage\\Lab05\\CustomSprite.h",
               "RelativeDocumentMoniker": "CustomSprite.h",
-              "ToolTip": "C:\\Users\\ajaku\\Documents\\Collage\\Lab05\\CustomSprite.h",
+              "ToolTip": "D:\\Collage\\Lab05\\CustomSprite.h",
               "RelativeToolTip": "CustomSprite.h",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAYwEkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-20T08:04:28.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Lab05.cpp",
-              "DocumentMoniker": "C:\\Users\\ajaku\\Documents\\Collage\\Lab05\\Lab05.cpp",
+              "DocumentMoniker": "D:\\Collage\\Lab05\\Lab05.cpp",
               "RelativeDocumentMoniker": "Lab05.cpp",
-              "ToolTip": "C:\\Users\\ajaku\\Documents\\Collage\\Lab05\\Lab05.cpp",
+              "ToolTip": "D:\\Collage\\Lab05\\Lab05.cpp",
               "RelativeToolTip": "Lab05.cpp",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAYwFkAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAD0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-20T08:02:04.626Z",
               "EditorCaption": ""

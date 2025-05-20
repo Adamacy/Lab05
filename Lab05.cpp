@@ -12,7 +12,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode(1280, 720), "My window");
     sf::Clock clock;
     srand(time(0));
-    window.setFramerateLimit(60);
+    window.setFramerateLimit(144);
     sf::Texture guy_tex;
     if (!guy_tex.loadFromFile("guy.png")) {
 		std::cout << "Error loading guy texture" << std::endl;
@@ -36,30 +36,15 @@ int main()
 	grass.setTextureRect(sf::IntRect(0, 0, 1280, 720));
 	grass_tex.setRepeated(true);
     std::vector<sf::Sprite> walls;
-
-    sf::Sprite wall1;
-	wall1.setTexture(wall_tex);
-    sf::Sprite wall2;
-    wall2.setTexture(wall_tex);
-    sf::Sprite wall3;
-    wall3.setTexture(wall_tex);
-    sf::Sprite wall4;
-    wall4.setTexture(wall_tex);
-    sf::Sprite wall5;
-    wall5.setTexture(wall_tex);
-    sf::Sprite wall6;
-    wall6.setTexture(wall_tex);
-    walls.emplace_back(wall1);
-    walls.emplace_back(wall2);
-    walls.emplace_back(wall3);
-    walls.emplace_back(wall4);
-    walls.emplace_back(wall5);
-    walls.emplace_back(wall6);
-    for (auto& wall : walls) {
-		wall.setPosition(rand() % 1100, rand() % 650);
+    int number_of_walls = 10;
+    for (int i = 0; i < number_of_walls; i++) {
+        sf::Sprite wall;
+        wall.setTexture(wall_tex);
+        wall.setPosition(rand() % 1000 + 100, rand() % 600);
         wall.setScale(0.4, 0.4);
         wall.setTextureRect(sf::IntRect(0, 0, 120, (rand() % 400) + 100));
-    }
+        walls.emplace_back(wall);
+    };
     guy.setPosition(30, 200);
     while (window.isOpen())
     {
@@ -72,12 +57,9 @@ int main()
             {
                 window.close();
             }
-            if (event.type == sf::Event::KeyPressed) {
-                guy.moveInDirection(elapsed, walls, event.key.code);
-            }
         }
         guy.setBounds(0, window.getSize().x, 0, window.getSize().y);
-
+        guy.moveInDirection(elapsed, walls);
 
         window.clear(sf::Color::Black);
         window.draw(grass);

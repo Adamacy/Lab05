@@ -51,7 +51,7 @@ public:
         else { return 0; }
     }
 
-    void moveInDirection(const sf::Time& elapsed, const std::vector<sf::Sprite>& obstacles, const sf::Keyboard::Key key)
+    void moveInDirection(const sf::Time& elapsed, const std::vector<sf::Sprite>& obstacles)
     {
 
         bool top = 0, left = 0, bottom = 0, right = 0;
@@ -67,16 +67,16 @@ public:
 
 
         sf::FloatRect rectangle_bounds = getGlobalBounds();
-        if (key == sf::Keyboard::W && bottom != 1) {
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && bottom != 1) {
             move(0, -std::abs(vertical_speed_ * elapsed.asSeconds()));
         }
-		if (key == sf::Keyboard::S && top != 1) {
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down) && top != 1) {
 			move(0, std::abs(vertical_speed_ * elapsed.asSeconds()));
 		}
-		if (key == sf::Keyboard::A && right != 1) {
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left) && right != 1) {
 			move(-std::abs(horizontal_speed_ * elapsed.asSeconds()), 0);
 		}
-		if (key == sf::Keyboard::D && left != 1) {
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right) && left != 1) {
 			move(std::abs(horizontal_speed_ * elapsed.asSeconds()), 0);
 		}
     }
@@ -89,6 +89,6 @@ private:
     int bound_bottom = 0;
     int bound_left = 0;
     int bound_right = 0;
-    int vertical_speed_ = 100;
-	int horizontal_speed_ = 100;
+    int vertical_speed_ = 200;
+	int horizontal_speed_ = 200;
 };
