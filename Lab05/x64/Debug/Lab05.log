@@ -1,0 +1,7 @@
+﻿  Lab05.cpp
+C:\Users\ajaku\Documents\Collage\Lab05\Lab05.cpp(14,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\ajaku\Documents\Collage\Lab05\Lab05.cpp(59,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ajaku\Documents\Collage\Lab05\Lab05.cpp(59,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ajaku\Documents\Collage\Lab05\Lab05.cpp(60,28): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ajaku\Documents\Collage\Lab05\Lab05.cpp(60,23): warning C4305: 'argument': truncation from 'double' to 'float'
+  Lab05.vcxproj -> C:\Users\ajaku\Documents\Collage\Lab05\x64\Debug\Lab05.exe
